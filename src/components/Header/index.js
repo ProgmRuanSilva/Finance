@@ -1,7 +1,7 @@
 import React from "react";
 import { View, StyleSheet, Text, StatusBar, TouchableOpacity } from 'react-native'
 
-import { Feather } from '@expo/vector-icons'
+import { Feather } from '@expo/vector-icons';
 
 //height in android are different to ios, ios dont have anything height.
 const statusBarHeigth = StatusBar.currentHeight ? StatusBar.currentHeight + 22 : 64;
